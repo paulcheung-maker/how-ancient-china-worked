@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const articles = (await getCollection('articles', ({ data }) => !data.draft)).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+---
+<BaseLayout title="How Ancient China Worked" description="Clear answers to practical questions about life, names, government and society in imperial China.">
+  <section class="hero shell">
+    <p class="eyebrow">Imperial China, clearly explained</p>
+    <h1>How Ancient China Worked</h1>
+    <p>Clear answers to practical questions about life, names, government and society in imperial China.</p>
+    <a class="button" href="/names/">Explore names and identity</a>
+  </section>
+  <section class="shell section">
+    <div class="section-heading"><p class="eyebrow">Start here</p><h2>Recent answers</h2></div>
+    <div class="card-grid">
+      {articles.map((article) => <a class="card" href={`/names/${article.id}/`}><p class="eyebrow">{article.data.section}</p><h3>{article.data.title}</h3><p>{article.data.description}</p><span>Read article →</span></a>)}
+    </div>
+  </section>
+</BaseLayout>
