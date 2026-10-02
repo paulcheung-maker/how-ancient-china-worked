@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://paulcheung-maker.github.io/how-ancient-china-worked/sitemap-index.xml
+Sitemap: https://how-ancient-china-worked.zhangyu-ct.workers.dev/sitemap-index.xml
