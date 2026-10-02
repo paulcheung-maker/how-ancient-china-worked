@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const articles = (await getCollection('articles', ({ data }) => data.section === 'Names' && !data.draft)).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+---
+<BaseLayout title="Names in imperial China | How Ancient China Worked" description="Practical, sourced answers about personal names, courtesy names, family names and naming customs.">
+  <section class="page-intro shell narrow"><p class="eyebrow">Topic</p><h1>Names in imperial China</h1><p>How personal names, courtesy names, family names and titles worked—and where the evidence is uncertain.</p></section>
+  <section class="shell narrow list">{articles.map((article) => <a class="article-row" href={`/names/${article.id}/`}><h2>{article.data.title}</h2><p>{article.data.description}</p><span>Read article →</span></a>)}</section>
+</BaseLayout>
