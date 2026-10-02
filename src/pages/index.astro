@@ -13,7 +13,7 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft)).so
   <section class="shell section">
     <div class="section-heading"><p class="eyebrow">Start here</p><h2>Recent answers</h2></div>
     <div class="card-grid">
-      {articles.map((article) => <a class="card" href={`/names/${article.id}/`}><p class="eyebrow">{article.data.section}</p><h3>{article.data.title}</h3><p>{article.data.description}</p><span>Read article →</span></a>)}
+      {articles.map((article) => <a class="card" href={`/${article.data.section.toLowerCase().replace(/\s+/g, '-')}/${article.id}/`}><p class="eyebrow">{article.data.section}</p><h3>{article.data.title}</h3><p>{article.data.description}</p><span>Read article →</span></a>)}
     </div>
   </section>
 </BaseLayout>
