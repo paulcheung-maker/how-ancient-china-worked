@@ -11,9 +11,16 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft)).so
     <a class="button" href="/names/">Explore names and identity</a>
   </section>
   <section class="shell section">
-    <div class="section-heading"><p class="eyebrow">Start here</p><h2>Recent answers</h2></div>
+    <div class="section-heading"><p class="eyebrow">Browse by topic</p><h2>Start with a practical question</h2></div>
     <div class="card-grid">
-      {articles.map((article) => <a class="card" href={`/${article.data.section.toLowerCase().replace(/\s+/g, '-')}/${article.id}/`}><p class="eyebrow">{article.data.section}</p><h3>{article.data.title}</h3><p>{article.data.description}</p><span>Read article →</span></a>)}
+      <a class="card" href="/names/"><p class="eyebrow">Names</p><h3>Names and identity</h3><p>Personal names, courtesy names, surnames, family naming, and historical records.</p><span>Explore Names →</span></a>
+      <a class="card" href="/government/"><p class="eyebrow">Government</p><h3>How the empire governed</h3><p>Emperors, officials, taxation, household registration, and local administration.</p><span>Explore Government →</span></a>
+    </div>
+  </section>
+  <section class="shell section">
+    <div class="section-heading"><p class="eyebrow">Recent answers</p><h2>Read next</h2></div>
+    <div class="card-grid">
+      {articles.slice(0, 6).map((article) => <a class="card" href={`/${article.data.section.toLowerCase().replace(/\s+/g, '-')}/${article.id}/`}><p class="eyebrow">{article.data.section}</p><h3>{article.data.title}</h3><p>{article.data.description}</p><span>Read article →</span></a>)}
     </div>
   </section>
 </BaseLayout>
