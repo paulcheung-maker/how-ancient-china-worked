@@ -1,7 +1,10 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-interface Props { title: string; description: string; publishedAt: Date; updatedAt?: Date; section: string; }
-const { title, description, publishedAt, updatedAt, section } = Astro.props;
+interface Props {
+  title: string; description: string; publishedAt: Date; updatedAt?: Date; section: string;
+  related?: { title: string; description: string; href: string }[];
+}
+const { title, description, publishedAt, updatedAt, section, related = [] } = Astro.props;
 const site = Astro.site ?? Astro.url.origin;
 const canonicalURL = new URL(Astro.url.pathname, site).toString();
 const sectionPath = `/${section.toLowerCase().replace(/\s+/g, '-')}/`;
@@ -28,4 +31,10 @@ const crumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', it
     <p class="byline">Published <time datetime={publishedAt.toISOString()}>{fmt.format(publishedAt)}</time></p>
     <div class="prose"><slot /></div>
   </article>
+  {related.length > 0 && <section class="shell narrow section">
+    <div class="section-heading"><p class="eyebrow">Keep reading</p><h2>Related questions</h2></div>
+    <div class="card-grid">
+      {related.map((item) => <a class="card" href={item.href}><h3>{item.title}</h3><p>{item.description}</p><span>Read article →</span></a>)}
+    </div>
+  </section>}
 </BaseLayout>
