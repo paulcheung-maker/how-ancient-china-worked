@@ -1,0 +1,17 @@
+---
+const { currentPath = '/' } = Astro.props;
+const links = [
+  { href: '/', label: 'Home' },
+  { href: '/names/', label: 'Names' },
+  { href: '/sources/', label: 'Sources' },
+  { href: '/about/', label: 'About' },
+];
+---
+<header class="site-header">
+  <div class="shell nav-wrap">
+    <a class="brand" href="/" aria-label="How Ancient China Worked home">How Ancient China Worked</a>
+    <nav aria-label="Primary navigation">
+      {links.map((link) => <a href={link.href} aria-current={currentPath === link.href ? 'page' : undefined}>{link.label}</a>)}
+    </nav>
+  </div>
+</header>
