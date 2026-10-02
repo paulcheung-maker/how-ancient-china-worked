@@ -3,9 +3,17 @@ import { getCollection, render } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 export async function getStaticPaths() {
   const articles = await getCollection('articles', ({ data }) => data.section === 'Government' && !data.draft);
-  return articles.map((article) => ({ params: { slug: article.id }, props: { article } }));
+  return articles.map((article) => ({
+    params: { slug: article.id },
+    props: {
+      article,
+      related: articles.filter((other) => other.id !== article.id).slice(0, 3).map((other) => ({
+        title: other.data.title, description: other.data.description, href: `/government/${other.id}/`,
+      })),
+    },
+  }));
 }
-const { article } = Astro.props;
+const { article, related } = Astro.props;
 const { Content } = await render(article);
 ---
-<ArticleLayout {...article.data}><Content /></ArticleLayout>
+<ArticleLayout {...article.data} related={related}><Content /></ArticleLayout>
