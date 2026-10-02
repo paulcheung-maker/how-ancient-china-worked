@@ -2,6 +2,6 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://paulcheung-maker.github.io/how-ancient-china-worked',
+  site: 'https://how-ancient-china-worked.zhangyu-ct.workers.dev',
   integrations: [sitemap()],
 });
