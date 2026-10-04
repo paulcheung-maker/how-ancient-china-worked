@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 const articles = (await getCollection('articles', ({ data }) => data.section === 'Government' && !data.draft)).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
-const cleanId = (id) => id.replace(/\.md$/, '');
+const cleanId = (id: string) => id.replace(/\.md$/, '');
 ---
 <BaseLayout title="Government in imperial China | How Ancient China Worked" description="Practical, sourced answers about emperors, officials, taxation, households, and local administration.">
   <section class="page-intro shell narrow"><p class="eyebrow">Topic</p><h1>Government in imperial China</h1><p>How a large empire governed through emperors, documents, officials, local intermediaries, and households.</p></section>

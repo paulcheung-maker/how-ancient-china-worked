@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 const articles = (await getCollection('articles', ({ data }) => !data.draft)).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
-const cleanId = (id) => id.replace(/\.md$/, '');
+const cleanId = (id: string) => id.replace(/\.md$/, '');
 ---
 <BaseLayout title="How Ancient China Worked" description="Clear answers to practical questions about life, names, government and society in imperial China.">
   <section class="hero shell">

@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 const articles = (await getCollection('articles', ({ data }) => data.section === 'Daily Life' && !data.draft)).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
-const cleanId = (id) => id.replace(/\.md$/, '');
+const cleanId = (id: string) => id.replace(/\.md$/, '');
 ---
 <BaseLayout title="Daily life in imperial China | How Ancient China Worked" description="Practical answers about food, homes, marriage, family life, and everyday routines in imperial China.">
   <section class="page-intro shell narrow">
