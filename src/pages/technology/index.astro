@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const articles = (await getCollection('articles', ({ data }) => data.section === 'Technology' && !data.draft)).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+const cleanId = (id: string) => id.replace(/\.md$/, '');
+---
+<BaseLayout title="Technology and trade in imperial China | How Ancient China Worked" description="Clear guides to Chinese inventions, silk, trade routes, production, and technological change in imperial China.">
+  <section class="page-intro shell narrow">
+    <p class="eyebrow">Technology and trade</p>
+    <h1>How ideas and goods moved</h1>
+    <p>Technology was never just a list of inventions. It depended on materials, skilled workers, markets, states, and the routes that connected China with neighboring regions and the wider world.</p>
+  </section>
+  <section class="shell narrow list">
+    {articles.map((article) => <a class="article-row" href={`/technology/${cleanId(article.id)}/`}><h2>{article.data.title}</h2><p>{article.data.description}</p><span>Read article →</span></a>)}
+  </section>
+</BaseLayout>
