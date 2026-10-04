@@ -116,6 +116,8 @@ For a practical next step, see our [beginner's reading guide](/guides/best-books
 
 ## Sources for further reading
 
+This guide was last reviewed on October 4, 2026.
+
 - Patricia Buckley Ebrey, *The Cambridge Illustrated History of China*.
 - Michael Loewe and Edward L. Shaughnessy, eds., *The Cambridge History of Ancient China*.
 - Valerie Hansen, *The Open Empire: A History of China to 1600*.
