@@ -1,14 +1,15 @@
 ---
 import { getCollection, render } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
+const cleanId = (id) => id.replace(/\.md$/, '');
 export async function getStaticPaths() {
   const articles = await getCollection('articles', ({ data }) => data.section === 'Names' && !data.draft);
   return articles.map((article) => ({
-    params: { slug: article.id },
+    params: { slug: cleanId(article.id) },
     props: {
       article,
       related: articles.filter((other) => other.id !== article.id).slice(0, 3).map((other) => ({
-        title: other.data.title, description: other.data.description, href: `/names/${other.id}/`,
+        title: other.data.title, description: other.data.description, href: `/names/${cleanId(other.id)}/`,
       })),
     },
   }));
