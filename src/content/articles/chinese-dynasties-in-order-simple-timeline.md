@@ -28,6 +28,26 @@ This timeline gives the major periods in order. Dates are approximate for the ea
 14. **Ming** (1368–1644)
 15. **Qing** (1644–1912)
 
+## Quick reference table
+
+| Period | Dates | Useful memory hook |
+| --- | --- | --- |
+| Xia | traditionally c. 2070–1600 BCE | First in the traditional sequence; evidence remains debated |
+| Shang | c. 1600–1046 BCE | Oracle-bone inscriptions |
+| Zhou | 1046–256 BCE | Mandate of Heaven; later competing states |
+| Qin | 221–206 BCE | First unification |
+| Han | 206 BCE–220 CE | Early imperial institutions |
+| Three Kingdoms | 220–280 | Wei, Shu, and Wu |
+| Jin | 266–420 | Brief reunification |
+| Northern and Southern Dynasties | 420–589 | Long period of division and exchange |
+| Sui | 581–618 | Reunification before Tang |
+| Tang | 618–907 | Chang'an, poetry, cosmopolitan empire |
+| Five Dynasties and Ten Kingdoms | 907–979 | Another era of division |
+| Song | 960–1279 | Commerce, printing, examinations |
+| Yuan | 1271–1368 | Mongol dynasty |
+| Ming | 1368–1644 | Later imperial bureaucracy and global trade |
+| Qing | 1644–1912 | Last imperial dynasty |
+
 ## Before the empires: Xia, Shang, and Zhou
 
 ### Xia
