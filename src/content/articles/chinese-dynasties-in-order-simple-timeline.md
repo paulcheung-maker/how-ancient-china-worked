@@ -1,5 +1,5 @@
 ---
-title: Chinese Dynasties in Order: A Simple Timeline
+title: "Chinese Dynasties in Order: A Simple Timeline"
 description: A clear chronological guide to the major Chinese dynasties, from the early Bronze Age through the end of the Qing empire in 1912.
 publishedAt: 2026-10-04
 section: Guides
