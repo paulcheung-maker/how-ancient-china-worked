@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const articles = (await getCollection('articles', ({ data }) => data.section === 'Daily Life' && !data.draft)).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+const cleanId = (id) => id.replace(/\.md$/, '');
+---
+<BaseLayout title="Daily life in imperial China | How Ancient China Worked" description="Practical answers about food, homes, marriage, family life, and everyday routines in imperial China.">
+  <section class="page-intro shell narrow">
+    <p class="eyebrow">Daily life</p>
+    <h1>How ordinary life worked</h1>
+    <p>Food, homes, marriage, and household routines varied enormously by place, period, wealth, and social rank. These guides start with the shared patterns, then explain the important exceptions.</p>
+  </section>
+  <section class="shell narrow list">
+    {articles.map((article) => <a class="article-row" href={`/daily-life/${cleanId(article.id)}/`}><h2>{article.data.title}</h2><p>{article.data.description}</p><span>Read article →</span></a>)}
+  </section>
+</BaseLayout>
