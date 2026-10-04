@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const articles = (await getCollection('articles', ({ data }) => data.section === 'Guides' && !data.draft)).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+---
+<BaseLayout title="Reading guides and resources | How Ancient China Worked" description="Practical reading guides and resources for learning about ancient and imperial China.">
+  <section class="page-intro shell narrow"><p class="eyebrow">Resources</p><h1>Reading guides and resources</h1><p>Practical starting points for readers who want dependable books and learning paths for ancient and imperial China.</p></section>
+  <section class="shell narrow list">{articles.map((article) => <a class="article-row" href={`/guides/${article.id}/`}><h2>{article.data.title}</h2><p>{article.data.description}</p><span>Read guide →</span></a>)}</section>
+</BaseLayout>
