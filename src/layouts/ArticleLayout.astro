@@ -28,7 +28,7 @@ const crumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', it
     <p class="eyebrow"><a href={sectionPath}>{section}</a></p>
     <h1>{title}</h1>
     <p class="dek">{description}</p>
-    <p class="byline">Published <time datetime={publishedAt.toISOString()}>{fmt.format(publishedAt)}</time></p>
+    <p class="byline">Published <time datetime={publishedAt.toISOString()}>{fmt.format(publishedAt)}</time>{updatedAt && <> · Updated <time datetime={updatedAt.toISOString()}>{fmt.format(updatedAt)}</time></>}</p>
     <div class="prose"><slot /></div>
   </article>
   {related.length > 0 && <section class="shell narrow section">
