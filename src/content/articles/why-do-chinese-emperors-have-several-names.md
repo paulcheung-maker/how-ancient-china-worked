@@ -40,7 +40,7 @@ A posthumous title expresses a commemorative judgment, not an independent verdic
 | Ming Chengzu (明成祖) | Dynasty + later temple name | Zhu Di |
 | Ming Taizong (明太宗), in the relevant earlier record | Dynasty + original temple name | Also Zhu Di, not another Yongle-era ruler |
 
-The [Palace Museum's Yongle biography](https://www.dpm.org.cn/court/lineage/226257.html) records Zhu Di's original temple name Taizong and its later change to Chengzu in 1538. **Even a posthumous identification can have a history.** Use the title appropriate to the source, while explaining the identity to a modern reader.
+The [Palace Museum's Yongle biography](https://www.dpm.org.cn/court/lineage/226257.html) records Zhu Di's original temple name Taizong; its [Jiajing chronology](https://www.dpm.org.cn/court/lineage/226241.html) records the change to Chengzu in 1538. **Even a posthumous identification can have a history.** Use the title appropriate to the source, while explaining the identity to a modern reader.
 
 These two Ming cases are useful demonstrations, not a template into which every earlier emperor must fit. Do not identify an otherwise unknown ruler from “Taizu,” “Taizong,” or a short posthumous form without checking dynasty and context.
 
@@ -113,6 +113,7 @@ Use a reliable reference's established identification and define alternatives on
 
 - Palace Museum, [Hongwu emperor](https://www.dpm.org.cn/court/lineage/226244.html): Zhu Yuanzhang, Hongwu, Taizu, and the full and revised posthumous titles.
 - Palace Museum, [Yongle emperor](https://www.dpm.org.cn/court/lineage/226257.html): Zhu Di, Yongle, and the change from Taizong to Chengzu.
+- Palace Museum, [Jiajing emperor](https://www.dpm.org.cn/court/lineage/226241.html), chronology for 1538, ninth month: the change from Taizong to Chengzu.
 - Palace Museum, [Tianshun emperor](https://www.dpm.org.cn/court/lineage/226253.html): Zhu Qizhen's interrupted rule, two era names, and temple name Yingzong.
 - Palace Museum, [Qianlong emperor](https://www.dpm.org.cn/court/lineage/226263.html): Hongli, Qianlong, and Qing Gaozong.
 - Ministry of Education, [諡](https://dict.revised.moe.edu.tw/dictView.jsp?ID=8799&la=0&powerMode=0): the meaning and broader application of posthumous titles.
