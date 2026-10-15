@@ -1,8 +1,8 @@
 ---
 title: "Did Women Have Courtesy Names in Imperial China?"
-description: "Yes, some women had courtesy names. See ritual prescriptions, recorded examples, and why a missing name does not prove a woman never had one."
+description: "Yes. Compare three women explicitly recorded with courtesy names, read the Chinese naming formulas, and separate historical evidence from naming myths."
 publishedAt: 2026-10-02
-updatedAt: 2026-10-11
+updatedAt: 2026-10-15
 section: Names
 ---
 
@@ -16,7 +16,7 @@ The key is to distinguish a ritual ideal, a name recorded for an individual, and
 
 A courtesy name was an additional name associated with adult social identity, not a family name. “Style name” can also mean *zi* in English, although translators sometimes use “style” more loosely. It is not automatically a pen name.
 
-For the broader vocabulary, see [personal names, courtesy names, and style names](/names/personal-names-courtesy-names-and-style-names/).
+For the broader vocabulary, see [the guide to ming, zi, and hao](/names/personal-names-courtesy-names-and-style-names/).
 
 ## What do the ritual texts say?
 
@@ -26,18 +26,41 @@ The passage places female courtesy names within a ritual framework. However, a p
 
 “Women receive a courtesy name upon betrothal in this prescription” is consequently more defensible than “all women received one at a fixed age.”
 
-## Recorded examples: Ban Zhao and Huan Shaojun
+## Three recorded examples you can check
 
-The *Book of the Later Han* (*Hou Hanshu*), chapter 84, supplies concrete examples:
+The *Book of the Later Han* (*Hou Hanshu*), chapter 84, explicitly uses 字 as a naming label for these women. The short Chinese extracts below reproduce the linked transcription; the English explanations are our paraphrases.
 
-| Person | What the linked text records | What it demonstrates |
+| Woman in the account | Naming formula in the text | How to read it |
 | --- | --- | --- |
-| Ban Zhao (班昭) | Personal name Zhao; *zi* Huiban (惠班) in this transmitted text | A biography distinguishes a woman's personal name and *zi* |
-| Huan Shaojun (桓少君), wife of Bao Xuan | Huan family name; *zi* Shaojun (少君) | A familiar historical label can preserve a courtesy name rather than a personal name |
+| [Ban Zhao (班昭)](https://zh.wikisource.org/wiki/後漢書/卷84#班昭) | 名昭，字惠班 | Zhao is explicitly the personal name; Huiban (惠班) is explicitly the *zi* in this transcription |
+| [Huan Shaojun (桓少君), Bao Xuan's wife](https://zh.wikisource.org/wiki/後漢書/卷84#桓少君) | 桓氏之女也，字少君 | Huan is the family name; Shaojun (少君) is the *zi*. This opening does not supply a personal name |
+| [Zhao A (趙阿), Zhou Yu's wife](https://zh.wikisource.org/wiki/後漢書/卷84#趙阿) | 趙孝之女也，字阿 | The account identifies her as Zhao Xiao's daughter and records A (阿) as her *zi*, not explicitly as her personal name |
 
-Both appear in [chapter 84](https://zh.wikisource.org/wiki/後漢書/卷84). Ban Zhao's entry also introduces her through her husband and father. A relationship-based identification and a recorded courtesy name can therefore coexist.
+These are three examples from one transmitted work, **not three independent surveys**. For a particular name spelling, consult the edition being cited rather than assuming every modern reference reproduces an identical text.
 
-These examples come from a transmitted historical work about Han people, not surviving name-registration forms. They establish the existence of female *zi*, not a rate of use among all women. For a particular spelling, consult the relevant edition rather than assuming all modern references reproduce an identical text.
+### Ban Zhao: a personal name, a courtesy name, and a title
+
+Ban Zhao's entry begins by identifying her through her husband and father, then distinguishes her personal name and *zi*. A relationship-based identification and individually recorded names therefore coexist in the same entry.
+
+Later, the account says she taught the empress and other palace women and was called **大家**, read [*dà gū* in this title](https://dict.concised.moe.edu.tw/dictView.jsp?ID=45136&la=0&powerMode=0). Do not replace Huiban with Dagu when reporting the *zi*: the passage labels the former with 字, while the latter appears in a different context.
+
+This is also a warning about the verb 號 in 號曰大家: a statement that someone “was called” something should not automatically be converted into a claim that the expression was a self-chosen literary *hao*.
+
+### Huan Shaojun: a courtesy name can become the familiar label
+
+The account's opening gives the Huan family identity and Shaojun as the *zi*, without an explicit *ming*. Calling her “Huan Shaojun” is convenient, but it does not make Shaojun a demonstrated personal name.
+
+The narrative also reports Bao Xuan using Shaojun when speaking to her. That is an example of a courtesy name in reported marital speech, not proof of a rule that only unrelated men could use a woman's *zi*. Historical reported speech is not a verbatim recording.
+
+### Zhao A: do not guess the category from length
+
+The explicit formula 字阿 matters more than a rule of thumb about two-character courtesy names. The linked passage records a one-character *zi*. Neither the length nor the sound of a familiar-looking label establishes whether it is a personal name, *zi*, or nickname.
+
+### What these biographies cannot tell us
+
+Chapter 84's introduction says it selects women for notable talent or conduct. The collection is therefore selective, not a representative sample of all Han women. Counting its named individuals would not tell us the percentage of women who had a courtesy name.
+
+It also does not establish when these particular women received their *zi*, who bestowed it, or every setting in which it was used. Do not fill those gaps with a ritual prescription and present the resulting story as an individually documented event.
 
 ## Why are women often called “Lady X”?
 
@@ -62,6 +85,14 @@ For fiction, a female courtesy name can be plausible, but plausibility is not pr
 
 These sources do not establish that. The prescription and named examples show that the practice existed, not that it was universal.
 
+### Did women always receive a courtesy name at fifteen?
+
+The quoted “Qu Li I” passage connects the woman's *zi* with betrothal; it does not itself specify fifteen. That does not settle every hairpin-rite age rule elsewhere. It means this passage cannot support the blanket claim “every girl received a courtesy name at fifteen.”
+
+### Can a woman in a historical novel have a courtesy name?
+
+Yes, the recorded examples establish that female *zi* were possible. For a real person, use a documented name. For an invented character, state that the name is fictional and research her period and social setting rather than treating these Han biographies as instructions for every dynasty.
+
 ### Is a courtesy name the same as a pen name?
 
 Not necessarily. Check the original term and context instead of merging courtesy names, literary aliases, surnames, and titles.
@@ -70,9 +101,16 @@ Not necessarily. Check the original term and context instead of merging courtesy
 
 No. It tells you that the source you checked does not supply one. A stronger conclusion needs additional evidence.
 
+## Continue reading
+
+- [Understand personal names, courtesy names, and art names](/names/personal-names-courtesy-names-and-style-names/) — the main terminology guide with Zhuge Liang and Su Shi examples.
+- [Did women take their husbands' surnames?](/names/did-women-take-their-husbands-surnames/) — keep marital labels separate from a woman's *zi*.
+- [Why do Chinese emperors have several names?](/names/why-do-chinese-emperors-have-several-names/) — distinguish imperial titles from personal and courtesy names.
+
 ## Sources and limits
 
 - *Liji*, [“Qu Li I” (曲禮上)](https://zh.wikisource.org/wiki/禮記/曲禮上): the betrothal and hairpin prescription; search for 女子許嫁.
-- Fan Ye, *Hou Hanshu*, [chapter 84, “Biographies of Women”](https://zh.wikisource.org/wiki/後漢書/卷84): the Ban Zhao and Huan Shaojun entries; search for 字惠班 and 字少君.
+- Ministry of Education, [dictionary entry for 大家 (*dà gū*)](https://dict.concised.moe.edu.tw/dictView.jsp?ID=45136&la=0&powerMode=0): identifies it as an honorific for women and gives Ban Zhao as an example.
+- Fan Ye, *Hou Hanshu*, [chapter 84, “Biographies of Women”](https://zh.wikisource.org/wiki/後漢書/卷84): the introductory statement of selection and the Ban Zhao, Huan Shaojun, and Zhao A entries; search for 字惠班, 字少君, and 字阿.
 
 These are readable transcriptions of primary texts, not critical editions or a survey of all women. This article establishes the existence of female courtesy names and explains evidence checks; it does not estimate their frequency. See our [sources guide](/sources/) for broader reading practices.
