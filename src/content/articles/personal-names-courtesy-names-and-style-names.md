@@ -1,49 +1,125 @@
 ---
-title: What was the difference between a personal name, a courtesy name, and a style name?
-description: A practical guide to ming, zi, and hao—and why English translations can make them sound more alike than they were.
+title: "Chinese Courtesy Names Explained: Ming, Zi, and Hao"
+description: "Understand personal names, courtesy names, style names, and art names with a comparison table, Zhuge Liang and Su Shi examples, and guidance on forms of address."
 publishedAt: 2026-10-02
+updatedAt: 2026-10-15
 section: Names
 ---
 
-The simplest answer is that a **personal name** (*ming*, 名) was the name given early in life; a **courtesy name** (*zi*, 字) was an additional adult name used in many social settings; and a **style name** is usually another English translation of *zi*.
+## The short answer
 
-A fourth term causes most confusion: *hao* (號). It is better translated as an **appellation**, **art name**, or **sobriquet** than as a courtesy name. A *hao* could be adopted later in life, sometimes more than once, and often expressed a literary, religious, or geographical identity.
+**A personal name is a *ming* (名); a courtesy name is a *zi* (字). “Style name” often also means *zi*, not a third category. A *hao* (號/号) is a separate appellation, often translated as “art name” or “sobriquet.”**
 
-These categories changed across periods and social groups. They are a guide to reading sources, not a universal checklist that every person possessed.
+For example, **Su Shi**, **Su Zizhan**, and **Su Dongpo** can refer to the same writer using different kinds of names. They are not three different people or three interchangeable given names.
 
-## 1. The personal name: ming
+This guide is for readers of Chinese history, historical novels, and period dramas. The categories help identify a name; they do not supply a universal etiquette code for every century, community, or individual.
 
-A *ming* was a person’s personal or given name. In a formal Chinese name, it followed the family name (*xing*, 姓). For example, in **Kong Qiu** (孔丘), *Kong* is the family name and *Qiu* is the personal name.
+## Ming, zi, and hao: a quick comparison
 
-The personal name carried rules of respect. In many settings, directly using an elder’s or superior’s *ming* could be inappropriate. Name taboos around rulers and ancestors made the personal name especially important in writing as well as speech.
+| Chinese term | Common English labels | What it identifies | Example |
+| --- | --- | --- | --- |
+| 姓, *xing* | Surname, family name | Family identity; separate from the personal name | 蘇/苏, Su, in Su Shi |
+| 名, *ming* | Personal name, given name | The individual's given name | 軾/轼, Shi |
+| 字, *zi* | Courtesy name; often “style name” | An additional name associated with adult social identity | 子瞻, Zizhan |
+| 號/号, *hao* | Appellation, art name, sobriquet | An alternative identity, often literary or connected with a place | 東坡居士/东坡居士, Dongpo Jushi |
 
-## 2. The courtesy name: zi
+The terminology follows David K. Jordan's [overview of Chinese personal names](https://pages.ucsd.edu/~dkjordan/chin/ChNames.html). English labels are not perfectly standardized: when precision matters, check whether the underlying Chinese term is 字 or 號.
 
-A *zi* was an additional name associated with adulthood. In English it may be called a **courtesy name** or a **style name**—in most historical writing, those two translations mean the same thing.
+A *hao* is not necessarily a writer's pen name, and a courtesy name is not simply a modern nickname. Nor should an English phrase such as “style name” be translated back into Chinese without checking its source.
 
-A person’s *zi* was commonly used by peers, juniors, and outsiders when politeness called for avoiding the personal name. It often had a meaningful relationship to the *ming*, but it was not simply a middle name or nickname.
+## Two recorded examples
 
-Courtesy names are particularly well documented for educated men. They were not equally common, recorded, or used in the same way for every class, period, region, or gender. When a source does not give a *zi*, it is better not to invent one.
+| Person and period | Family name + personal name | Recorded courtesy name (*zi*) | Appellation (*hao*) shown here |
+| --- | --- | --- | --- |
+| Zhuge Liang, late Han–Three Kingdoms | 諸葛亮/诸葛亮: Zhuge + Liang | 孔明, Kongming | Not needed for this example |
+| Su Shi, Northern Song | 蘇軾/苏轼: Su + Shi | 子瞻, Zizhan | 東坡居士/东坡居士, Dongpo Jushi; often shortened to Dongpo |
 
-## 3. The appellation: hao
+“Not needed” does not mean that a person had no other appellations. This table records only the names required to demonstrate the distinction; it is not a complete catalogue.
 
-A *hao* was more flexible. It could be self-chosen, given by others, or connected to a residence, landscape, studio, religious affiliation, or literary persona. A person could use more than one *hao* over a lifetime.
+### Zhuge Liang and Kongming: one man, two name categories
 
-The Northern Song writer **Su Shi** (蘇軾) illustrates the distinction: *Shi* was his personal name, *Zizhan* (子瞻) his courtesy name, and **Dongpo Jushi** (東坡居士, “Layman of the Eastern Slope”) one of his best-known appellations. Calling “Dongpo” a courtesy name blurs two different naming practices.
+The opening of his biography in the [*Records of the Three Kingdoms*, chapter 35](https://zh.wikisource.org/wiki/三國志/卷35), explicitly identifies Kongming as Zhuge Liang's *zi*. **Zhuge is the compound surname; Liang is the personal name.** Do not split the surname into a family name “Zhu” and a given-name element “Ge.”
 
-## A useful reading rule
+The same biography reports Liu Bei referring to him as Kongming while explaining their close relationship to Guan Yu and Zhang Fei. This is a concrete instance of a courtesy name in a historical narrative, rather than evidence that everyone always used that form.
 
-When you encounter an unfamiliar historical name, ask:
+The biography was compiled by Chen Shou and transmitted with later commentary. Reported speech in a historical text should not be treated as an audio transcript, and an adaptation's dialogue is another layer again.
 
-1. Is it the person’s family name plus personal name?
-2. Does the source call it a *zi*? If so, “courtesy name” and “style name” are both reasonable translations.
-3. Does it call it a *hao*, identify a studio, or show a literary/religious persona? Then “appellation,” “art name,” or “sobriquet” is usually safer.
-4. Is it instead an official title, reign name, temple name, or posthumous name? Those are separate systems.
+### Su Shi, Zizhan, and Dongpo: three labels to keep separate
 
-The goal is not to force a single English label onto every source. It is to preserve the distinction the source is making.
+The [Palace Museum's Su Shi entry](https://www.dpm.org.cn/lemmas/242068.html) identifies Zizhan as his *zi* and Dongpo Jushi as his *hao*. A [National Palace Museum catalogue entry](https://digitalarchive.npm.gov.tw/Collection/Detail/896?dep=P) also distinguishes his style name from his sobriquet.
 
-## Further reading
+A practical reading key is:
 
-- [David K. Jordan, “Chinese Personal Names & Titles”](https://pages.ucsd.edu/~dkjordan/chin/ChNames.html), a useful overview of *xing*, *ming*, *zi*, and *hao*.
-- [Zhu and Millward, “Personal Names in Chinese”](https://ans-names.pitt.edu/ans/article/download/1151/1150/2304), on the historical relationship among personal names, courtesy names, and appellations.
-- K. E. Brashier, *Public Memory in Early China*, for a fuller study of names, age, and kinship in early imperial memorial culture.
+- **Su Shi**: surname plus personal name.
+- **Su Zizhan**: surname plus courtesy name.
+- **Su Dongpo**: surname plus the familiar shortened form of his appellation.
+
+Thus, “Dongpo was Su Shi's courtesy name” confuses *hao* with *zi*. The museum catalogue also preserves older romanized spellings such as “Su Shih”; spelling variation is a separate issue from name category.
+
+## Which name would someone use?
+
+**Who is speaking, to whom, and in what setting matters as much as the name itself.** Identification in a biography is not the same thing as direct address.
+
+The following is a reading aid, not a dialogue generator:
+
+| Situation | What to check | What not to assume |
+| --- | --- | --- |
+| A biography introduces someone | Does it explicitly mark an additional name with 字 or 號? | Every name listed was used in conversation |
+| An adult addresses a peer | A *zi* may be a respectful alternative to the *ming* | Courtesy names were compulsory in every conversation |
+| A junior addresses an elder or superior | Look for the source's actual title, office, kinship term, or name form | Replacing the given name with a *zi* is always sufficient |
+| Someone refers to themself formally | A personal name can occur in deferential self-reference | Using a personal name is always insulting |
+| Relatives speak within a household | Kinship terms or familiar forms may matter more than formal names | Every family member used the same form |
+| A literary text or inscription names an artist | Check for a *hao*, signature, or studio-related label | Every literary appellation is a *zi* |
+
+Zhu Bin and Celia Millward discuss distinctions between self-reference, senior-to-junior usage, and polite address in [“Personal Names in Chinese,” pp. 18–19](https://ans-names.pitt.edu/ans/article/download/1151/1150). Their broad summary is useful vocabulary, but is not a substitute for checking the period and evidence of a particular scene.
+
+### What the ritual text actually prescribes
+
+The [*Book of Rites*, “Qu Li I”](https://zh.wikisource.org/wiki/禮記/曲禮上), connects a man's capping and *zi* with the age of twenty. It also prescribes name usage in the presence of a father or ruler and connects a woman's *zi* with betrothal.
+
+These are **ritual prescriptions**, not a census of actual behavior across imperial China. They explain why age and hierarchy matter without proving that every man received a *zi* on his twentieth birthday or every woman followed the same timetable.
+
+For a historical-fiction scene, first choose the period and relationship, then find comparable letters, biographies, or dialogue. Do not turn one ritual passage into an all-purpose rule.
+
+## Common questions and mistakes
+
+### Are courtesy names and style names different?
+
+Often not: both can translate 字, *zi*. The Chinese label or an explicit biographical explanation is a better guide than the English word “style” alone. The National Palace Museum's Su Shi catalogue provides a useful example of “style name” being distinguished from a sobriquet.
+
+### Is a courtesy name a middle name?
+
+No. In these examples it is an alternative name form, not an extra slot to insert into a modern given-name–middle-name–surname formula. Write “Zhuge Liang, courtesy name Kongming,” rather than treating “Liang Kongming” as one expanded given name.
+
+### Did everyone have a courtesy name?
+
+Do not assume so. A ritual ideal, an individually recorded name, and the prevalence of a practice are three different questions. A short biography's silence does not establish either that someone had a *zi* or that they lacked one.
+
+For women's recorded examples and the limits of the evidence, read [Did women have courtesy names?](/names/did-women-have-courtesy-names/).
+
+### Does every courtesy name have an obvious relationship to the personal name?
+
+The two could be related in meaning, as Zhu and Millward discuss, but that is not permission to invent an etymology. If a biography does not explain a connection, label any proposed interpretation and provide its evidence.
+
+### Are an emperor's temple and reign names courtesy names?
+
+No. Imperial naming adds separate categories. Use [Why do Chinese emperors have several names?](/names/why-do-chinese-emperors-have-several-names/) to distinguish personal, reign, temple, and posthumous names rather than classifying all additional labels as *zi* or *hao*.
+
+## A checklist for identifying an unfamiliar name
+
+1. **Find the Chinese characters**, if available. Romanization alone can hide distinctions.
+2. **Separate the surname from the personal name.** Remember compound surnames such as Zhuge.
+3. **Look for an explicit category:** 字 for a *zi*, 號 for a *hao*. Treat this as a useful clue, not a substitute for reading the sentence.
+4. **Check the context:** direct address, self-reference, a signature, or a later historian's label?
+5. **Keep uncertainty visible.** A novel's convenient naming system does not establish historical etiquette.
+
+## Sources and how to use them
+
+- [*Records of the Three Kingdoms*, chapter 35, biography of Zhuge Liang](https://zh.wikisource.org/wiki/三國志/卷35). Primary historical text, presented in a digital transcription: identifies Kongming and reports Liu Bei's use of that name. Distinguish Chen Shou's narrative from Pei Songzhi's commentary.
+- [*Book of Rites*, “Qu Li I”](https://zh.wikisource.org/wiki/禮記/曲禮上). Primary ritual text in digital transcription: evidence for prescriptions about naming, age, and hierarchy, not universal compliance.
+- [Palace Museum, “Su Shi”](https://www.dpm.org.cn/lemmas/242068.html). Museum reference entry identifying his *zi* and *hao*.
+- [National Palace Museum, Su Shi calligraphy catalogue entry](https://digitalarchive.npm.gov.tw/Collection/Detail/896?dep=P). Museum record distinguishing Zizhan and Dongpo Jushi, with English terminology and older romanization.
+- [David K. Jordan, “Chinese Personal Names & Titles”](https://pages.ucsd.edu/~dkjordan/chin/ChNames.html), especially “Multiple Names for Men” and “Names Used in Families.” An introductory terminology guide; its generalizations should be checked against period-specific sources.
+- [Zhu Bin and Celia Millward, “Personal Names in Chinese,” *Names* 35(1), 1987, pp. 8–21](https://ans-names.pitt.edu/ans/article/view/1151), especially pp. 18–19. A linguistic overview, not evidence that all naming practices were uniform.
+
+Chinese passages are paraphrased in English here rather than quoted from a published translation.
